@@ -1,0 +1,36 @@
+a=[85,76,93,69,87]
+
+#a의 0번째 값을 출력 하시오.
+print(a[0])
+#a의 3번째 값을 출력 하시오.
+print(a[2])
+#a의 마지막 값을 출력 하시오.
+print(a[4])
+
+print("="*30)
+
+#a[0]부터 a의 마지막까지 한번에 출력하시오.
+
+for i in range(5):
+    print(a[i])
+print("="*30)
+for i in range(len(a)):
+    print(a[i])
+print("="*30)
+for i in a:
+    print(i)
+
+==========================================================
+a=[85,76,93,69,87]
+b="powerpoint"
+
+a1=len(a) # a리스트의 요소의 갯수
+b1=len(b) # b문자열의 글자수
+
+for i in range(a1): # i값이 0,1,2,3,4 로 바뀌면서 print명령이 처리됨
+    print(a[i])
+
+print("="*30) # = 를 30번 출력
+
+for i in a: # 여기서 a는 [85,76,93,69,87]이다
+    print(i)
