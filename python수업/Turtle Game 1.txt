@@ -1,70 +1,23 @@
 Turtle Game 1 - Turtle 모듈 사용하기
-
 Turtle 모듈 사용하기
-
- 
-
 Turtle은 그래픽 환경에서 프로그래밍을 쉽게 배울 수 있도록 파이썬에서 제공하는 모듈이다. Turtle 모듈의 몇 가지 메서드를 익혀서 사용하면 간단하게 게임을 만들 수 있다.
-
- 
-
 기본적으로 사각형, 삼각형, 거북이 모양의 Shape를 이용하여 앞으로, 뒤로 가는 등의 동작을 만들 수 있고, Shape의 이동 궤적을 선으로 그려줌으로써 다양항 도형등을 만들어 낼 수 있다.
-
- 
-
 Turtle 모듈의 문서는 아래의 링크에서 모두 확인 할 수 있다.
-
- 
-
 https://docs.python.org/3.7/library/turtle.html
 
- 
-
 본 강좌에서 사용하는 Turtle Game의 내용은 아래의 유튜브 강좌를 참고하였으며, 본 강좌에서 몇 개의 기능을 추가하였다.
-
 영상으로 보고자하면 아래의 링크에서 강좌를 따라가면 된다. 참고로 영어로 된 강좌이나 코드를 보면 쉽게 이해가능 할 것이다.
-
- 
-
 https://www.youtube.com/watch?v=PTgyzZGknvg
 
- 
-
- 
-
- 
-
- 
-
 Turtle Game 만들기 1
-
- 
-
 Turtle 모듈을 사용하기 위해서는 turtle 모듈을 import 하기만 하면된다.
-
- 
-
 아래의 코드를 통해서 간단히 turtle 모듈을 실행해본다.
-
- 
-
-
-	
 		
 			
 			import turtle as t
-
-			 
-
 			screen = t.Screen()
-
-			 
-
 			p= t.Turtle()
 			p.shape("turtle")
-
-			 
-
 			screen.mainloop()
 			
 		
